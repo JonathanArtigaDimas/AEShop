@@ -64,24 +64,24 @@
 /*Media query de las letras grandes y el boton*/
 @media (max-width: 399px){
     #CuadradoInformacion{
-        margin-top: 15%;
+        margin-top: 12%;
         margin-left: 5%;
     }
     #CuadradoInformacion > p{
-        font-size: 120%;
+        font-size: 160%;
         margin: 0;
     }
     #CuadradoInformacion > h2{
-        font-size: 150%;
+        font-size: 200%;
         margin: 0;
     }
     #CuadradoInformacion > h6{
-        font-size: 85%;
+        font-size: 50%;
         margin: 0;
     }
     #ingresarCatalogo{
-        width: 40%;
-        height: 4%;
+        width: 50%;
+        height: 5%;
         margin-top: 50%;  
         border-radius: 2rem;
         margin-left: 5%;
@@ -93,7 +93,7 @@
         border-radius: 100%;
     }
     #ingresarCatalogo > p{
-        font-size: 50%;
+        font-size: 60%;
     }
     .imgFlecha{
         width: 100%;
@@ -474,8 +474,8 @@
         width: 50%;
     }
     .fa{
-        padding: 10%;
-        width: 35%;
+        padding: 5%;
+        width: 25%;
         text-align: center;
         text-decoration: none;
         margin: 5px 2px;
