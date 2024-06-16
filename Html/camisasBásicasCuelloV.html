@@ -11,9 +11,23 @@
 <body>
     <div class="container">
         <nav id="carrito">
-            
+            <i class="fa-solid fa-cart-shopping">
+                <div class="buy-card">
+                    <ul class="nav-card">
+                        <li>Imagen</li>
+                        <li>Nombre</li>
+                        <li>Precio</li>
+                        <li>Cantidad</li>
+                        <li></li>
+                    </ul>
+                    <div class="lista_de_cursos">
+                        
+                    </div>
+                    <button id="vaciar_carrito">VACIAR CARRITO</button>
+                </div>
+            </i>
         </nav>
-        <h1>Selecciona el estilo de camisa</h1>
+        <h1>Selecciona los tipos de camisas que deseas comprar</h1>
         <div class="grid" id="lista-cursos">
 
             <!--CARD DE CAMISAS BASICAS CUELLO REDONDO-->
@@ -21,14 +35,12 @@
                 <img src="../Img/imagenDeCamisasBásicasCuelloRedondo.jpg">
                 <div class="info">
                     <h3>Camisas Básicas cuello redondo</h3>
-                    <p>100% algodon, 50 de gremaje, tallas desde XS hasta XXL.</p>
+                    <p>100% algodon, 50 de gremaje</p>
                     <div class="precio">
                         
-                        <p class="descuento">$5 c/u</p>
+                        <p class="descuento">$5</p>
                     </div>
-                    <a href="../Html/camisasBásicasCuelloRedondo.html">
-                    <button class="agregar-carrito">Ver Camisas</button>
-                    </a>
+                    <button class="agregar-carrito" data-id="1">Agregar al Carrito</button>
                 </div>
             </div>
 
@@ -37,21 +49,18 @@
                 <img src="../Img/imagenDeCamisasBásicasCuelloEnFormadeV.jpg">
                 <div class="info">
                     <h3>Camisas Básicas cuello en forma de  V</h3>
-                    <p>100% algodon, 50 de gremaje, tallas desde XS hasta XXL.</p>
+                    <p>100% algodon, 50 de gremaje</p>
                     <div class="precio">
                         
-                        <p class="descuento">$5 c/u</p>
+                        <p class="descuento">$5</p>
                     </div>
-                    <a href="../Html/camisasBásicasCuelloV.html">
-                    <button class="agregar-carrito">Ver Camisas</button>
-                    </a>
+                    <button class="agregar-carrito" data-id="2">Agregar al Carrito</button>
                 </div>
             </div>
-
-            
 
 
 
     </div>
+    <script src="../Js/camisasBásicas.js"></script>
 </body>
 </html>
