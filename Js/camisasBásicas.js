@@ -54,6 +54,10 @@ function leerInfo(curso) {
         cantidad : 1
     }
 
+
+    
+
+
     //Revisa si un elemento ya existe en el carrito
     const existe = articulosCarrito.some(curso => curso.id === infoCurso.id)
 
